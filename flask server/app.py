@@ -12,7 +12,7 @@ app.config['SECRET_KEY'] = 'your-secret-key'
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = True
 
-app.config['MONGO_URI'] = 'mongodb://root:H4QpE7IY4Zqa5CjIksqzqSfS@alfie.iran.liara.ir:30646/my-app?authSource=admin'  # Replace with your MongoDB URI
+app.config['MONGO_URI'] = 'mongodb://root:uthaSource=admin'  # Replace with your MongoDB URI
 mongo = PyMongo(app)
 bcrypt = Bcrypt(app)
 
